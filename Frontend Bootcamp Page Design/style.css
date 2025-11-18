@@ -1,0 +1,9 @@
+ul li a {
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
