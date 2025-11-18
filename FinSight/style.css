@@ -1,0 +1,72 @@
+#navbar {
+  background-color: #282828;
+  border: none;
+}
+
+#footer {
+  background-color: #282828;
+  color: white;
+}
+
+#footer ul li a {
+  color: white;
+  border-color: white;
+  border-top: 10px;
+}
+
+#hero {
+  color: white;
+  background-color: #0b56b7;
+}
+
+h1 {
+  color: white;
+}
+#invest {
+  background-color: #ffc107;
+  color: black;
+}
+
+#invest:hover {
+  color: white;
+}
+
+#alpha {
+  color: white;
+}
+
+#action {
+  color: white;
+  background-color: #0b56b7;
+}
+
+.impupd {
+  border-radius: 0.5rem;
+}
+
+span {
+  color: #ffc107;
+}
+
+#title {
+  color: white;
+}
+
+.mynav {
+  color: white;
+}
+
+.mynav:hover {
+  color: #ffc107;
+  text-decoration: underline;
+}
+
+.feature-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 0.75rem;
+}
+
+#sign:hover {
+  color: white;
+}

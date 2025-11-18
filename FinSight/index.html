@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FinSight Research</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="chart-2-bold.svg" />
+  </head>
+  <body>
+    <section id="navbar">
+      <header
+        class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 border-bottom"
+      >
+        <div class="col-md-3 mb-2 mb-md-0">
+          <div class="container">
+            <h3 id="title">Fin<span>Sight</span> Research</h3>
+          </div>
+        </div>
+        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+          <li>
+            <a href="#" class="nav-link px-2 mynav">Home</a>
+          </li>
+          <li><a href="#" class="nav-link px-2 mynav">Philosophy</a></li>
+          <li><a href="#" class="nav-link px-2 mynav">Products</a></li>
+          <li><a href="#" class="nav-link px-2 mynav">FAQs</a></li>
+          <li><a href="#" class="nav-link px-2 mynav">Pricing</a></li>
+          <li><a href="#" class="nav-link px-2 mynav">About</a></li>
+        </ul>
+        <div class="col-md-3 text-end">
+          <div class="container">
+            <button type="button" class="btn btn-outline-light me-2">
+              Login
+            </button>
+            <button type="button" class="btn btn-warning" id="sign">
+              Sign-up
+            </button>
+          </div>
+        </div>
+      </header>
+    </section>
+    <section id="hero">
+      <div class="px-4 py-5 text-center">
+        <!-- <img
+          class="d-block mx-auto mb-4"
+          src="bannerjee.avif"
+          alt=""
+          width="500px"
+          height="250px"
+        /> -->
+        <h1 class="display-5 fw-bold" id="alpha">
+          Unlock Alpha In Volatile Markets
+        </h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">
+            Deep, independent research, analysis and proprietary models for
+            serious investors.
+          </p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button
+              type="button"
+              class="btn btn-primary btn-lg px-4 gap-3"
+              id="invest"
+            >
+              Invest with FinSight
+            </button>
+            <button type="button" class="btn btn-outline-light btn-lg px-4">
+              Our Strategies
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="Philosophy">
+      <div class="p-5 text-center bg-body-tertiary" style="height: 325px">
+        <div class="container py-5">
+          <h1 class="text-body-emphasis">
+            Fundamental, <span>Bottom-Up Research</span>
+          </h1>
+          <p class="col-lg-8 mx-auto lead">
+            We go beyond headlines to produce in-depth reports on disruptive
+            technology, macro strategy, and undervalued sectors, all consistent
+            with our investing principles that are at the intersection of
+            combining fundamentally great stocks at cheap valuations with high
+            technical strength.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="swing">
+      <div class="p-5 text-center bg-body-tertiary" style="height: 250px">
+        <div class="container py-5">
+          <h1 class="text-body-emphasis">Our Latest Fundamental Research</h1>
+          <p class="col-lg-8 mx-auto lead">
+            In-depth reports covering disruptive technology and undervalued
+            sectors.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="news">
+      <div class="container">
+        <div class="row">
+          <div class="card col mx-auto">
+            <div class="card-body">
+              <button type="button" class="btn btn-primary btn-sm impupd">
+                Tech Analysis
+              </button>
+              <h5 class="card-title">
+                The AI Infrastructure Boom: Who Wins the Next Cycle?
+              </h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">
+                A deep dive into the CapEx required for global AI adoption and
+                the key players set to benefit in 2026.
+              </h6>
+              <br />
+              <br />
+              <button
+                type="button"
+                class="btn btn-outline-secondary"
+                style="border-radius: 0.5rem"
+              >
+                Read Report
+              </button>
+              <br />
+              <br />
+              <p class="card-text">Published : Oct 28,2025</p>
+            </div>
+          </div>
+          <div class="card col-4 mx-2">
+            <div class="card-body">
+              <button type="button" class="btn btn-warning btn-sm impupd">
+                Market Strategy
+              </button>
+              <h5 class="card-title">
+                Navigating Inflation: Defensive Portfolios for Q4
+              </h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">
+                Examining sectors that traditionally outperform during periods
+                of persistent inflation and central bank uncertainty.
+              </h6>
+              <br />
+              <br />
+              <button
+                type="button"
+                class="btn btn-outline-secondary"
+                style="border-radius: 0.5rem"
+              >
+                Read Report
+              </button>
+              <br />
+              <br />
+              <p class="card-text">Published: Oct 25, 2025</p>
+            </div>
+          </div>
+          <div class="card col-4 mx-1">
+            <div class="card-body">
+              <button type="button" class="btn btn-success btn-sm impupd">
+                Emerging Markets
+              </button>
+              <h5 class="card-title">
+                Latin American FinTech: The Next Growth Frontier
+              </h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">
+                Identifying high-growth, underserved markets in South America
+                and the regulatory landscape impacting valuations
+              </h6>
+              <br />
+              <br />
+              <button
+                type="button"
+                class="btn btn-outline-secondary"
+                style="border-radius: 0.5rem"
+              >
+                Read Report
+              </button>
+              <br />
+              <br />
+              <p class="card-text">Published: Oct 20, 2025</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="algo">
+      <div class="p-5 text-center bg-body-tertiary">
+        <div class="container py-5">
+          <h1 class="text-body-emphasis">
+            Build Your Edge with Algorithmic Trading Tools
+          </h1>
+          <p class="col-lg-8 mx-auto lead">
+            Advanced backtesting, strategy optimization, and live execution
+            APIs.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="algo-chart" style="height: 300px">
+      <div class="container mb-">
+        <div class="row">
+          <div class="feature col-3">
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                fill="currentColor"
+                class="bi bi-clock"
+                viewBox="0 0 16 16"
+                style="color: black"
+              >
+                <path
+                  d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"
+                />
+                <path
+                  d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"
+                />
+              </svg>
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Historical Backtesting</h3>
+            <p>
+              Test strategies across decades of tick-level data with zero data
+              bias.
+            </p>
+          </div>
+
+          <div class="feature col-3">
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3"
+              style="background-color: yellow"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                fill="currentColor"
+                class="bi bi-bar-chart-fill"
+                viewBox="0 0 16 16"
+                style="color: black"
+              >
+                <path
+                  d="M1 11a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1zm5-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1z"
+                />
+              </svg>
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Visual Strategy Builder</h3>
+            <p>
+              Drag-and-drop interface for complex logic creation without coding.
+            </p>
+          </div>
+          <div class="feature col-3">
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3"
+              style="background-color: green"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                fill="currentColor"
+                class="bi bi-link-45deg"
+                viewBox="0 0 16 16"
+                style="color: black"
+              >
+                <path
+                  d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1 1 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4 4 0 0 1-.128-1.287z"
+                />
+                <path
+                  d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243z"
+                />
+              </svg>
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Live Execution API</h3>
+            <p>
+              Seamless connection to all major brokerage accounts for real-time
+              deployment.
+            </p>
+          </div>
+          <div class="feature col-3">
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3"
+              style="background-color: red"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                fill="currentColor"
+                class="bi bi-shield-check"
+                viewBox="0 0 16 16"
+                style="color: black"
+              >
+                <path
+                  d="M5.338 1.59a61 61 0 0 0-2.837.856.48.48 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.7 10.7 0 0 0 2.287 2.233c.346.244.652.42.893.533q.18.085.293.118a1 1 0 0 0 .101.025 1 1 0 0 0 .1-.025q.114-.034.294-.118c.24-.113.547-.29.893-.533a10.7 10.7 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.8 11.8 0 0 1-2.517 2.453 7 7 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7 7 0 0 1-1.048-.625 11.8 11.8 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 63 63 0 0 1 5.072.56"
+                />
+                <path
+                  d="M10.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0"
+                />
+              </svg>
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Dynamic Risk Controls</h3>
+            <p>
+              Automated position sizing and drawdown protection built into every
+              bot.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="action">
+      <div class="container">
+        <div class="container-fluid py-5">
+          <h2 class="display-5 fw-bold text-center">
+            Ready to Invest Smarter ?
+          </h2>
+          <div class="text-center">
+            <p class="text-center">
+              Access all premium research and models instantly with a
+              subscription.
+            </p>
+            <div class="text-center">
+              <button class="btn btn-warning btn-lg mx-auto" type="button">
+                View Subscription Plans
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="footer">
+      <div class="container">
+        <footer class="py-5">
+          <div class="row">
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Quick Links</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0">Market Data</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0">About Us</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0">PMS Performance</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0">Philosophy</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0">Careers</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Legal</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0">Terms Of Use</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0">Privacy Policy</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0">Disclosure</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0">FAQs</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0">About</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Get in Touch</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0">research@finsight.in</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-body-secondary"></a>
+                  📍Makers Chamber, Nariman Point, Dalal Street, Bombay
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-5 offset-md-1 mb-3">
+              <form>
+                <h5>Subscribe to our newsletter</h5>
+                <p>Monthly digest of what's new and exciting from us.</p>
+                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                  <label for="newsletter1" class="visually-hidden"
+                    >Email address</label
+                  >
+                  <input
+                    id="newsletter1"
+                    type="email"
+                    class="form-control"
+                    placeholder="Email address"
+                  />
+                  <button class="btn btn-primary" type="button">
+                    Subscribe
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div
+            class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top"
+          >
+            <p>© 2025 FinSight Research, Inc. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3">
+                <a class="link-body-emphasis" href="#" aria-label="Instagram"
+                  ><svg class="bi" width="24" height="24">
+                    <use xlink:href="#instagram"></use></svg
+                ></a>
+              </li>
+              <li class="ms-3">
+                <a class="link-body-emphasis" href="#" aria-label="Facebook"
+                  ><svg class="bi" width="24" height="24" aria-hidden="true">
+                    <use xlink:href="#facebook"></use></svg
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
