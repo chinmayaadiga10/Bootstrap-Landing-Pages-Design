@@ -40,7 +40,7 @@ FinSight Research/
 
 ## 📸 Preview
 
-![Homepage Screenshot-1](./Preview/preview1.png)
-![Homepage Screenshot-2](./Preview/preview2.png)
-![Homepage Screenshot-1](./Preview/preview3.png)
-![Homepage Screenshot-2](./Preview/preview4.png)
+![Homepage Screenshot-1](./Preview/Preview1.png)
+![Homepage Screenshot-2](./Preview/Preview2.png)
+![Homepage Screenshot-1](./Preview/Preview3.png)
+![Homepage Screenshot-2](./Preview/Preview4.png)
